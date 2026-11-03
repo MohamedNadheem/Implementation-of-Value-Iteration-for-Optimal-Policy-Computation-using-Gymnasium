@@ -190,17 +190,17 @@ The Value Iteration algorithm was successfully implemented on the custom FrozenL
 
 ## Inference
 
-Value Iteration was successfully implemented in the modified FrozenLake environment with different start and goal states.
+The Value Iteration algorithm successfully converged in 255 iterations for the modified FrozenLake environment.
 
 
 
-The optimal state-value function was calculated using the Bellman equation.
+The optimal state-value function shows that the agent has higher values in states closer to the goal.
 
 
 
-The optimal policy was derived within the same iteration loop using argmax(), avoiding repeated calculations.
+The optimal policy was derived successfully, showing the best actions (Left, Right, Up and Down) for each state.
 
 
 
-The agent learns the best possible actions to reach the goal while avoiding holes and maximizing rewards.
+The agent learns an optimal strategy to reach the goal while avoiding holes and maximizing the expected reward.
 
