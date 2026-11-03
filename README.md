@@ -197,7 +197,3 @@ The optimal state-value function shows that the agent has higher values in state
 
 
 The optimal policy was derived successfully, showing the best actions (Left, Right, Up and Down) for each state.
-
-
-The agent learns an optimal strategy to reach the goal while avoiding holes and maximizing the expected reward.
-
